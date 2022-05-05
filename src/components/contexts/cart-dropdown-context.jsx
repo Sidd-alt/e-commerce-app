@@ -32,7 +32,6 @@ export const CartDropDownProvider = ({ children }) => {
 
    useEffect(() => {
       const newCartCount = cartItems.reduce((total, cartItem) => total + cartItem.quantity, 0)
-      console.log({cartItems})
       setcartItemsQuantity(newCartCount)
    }, [cartItems])
 

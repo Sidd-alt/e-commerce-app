@@ -5,7 +5,7 @@ import { CartDropDownContext } from '../contexts/cart-dropdown-context';
 
 const CartIcon = () => {
 
-   const { showCartDropdown, setshowCartDropdown, cartItems, cartItemsQuantity } = useContext(CartDropDownContext)
+   const { showCartDropdown, setshowCartDropdown, cartItemsQuantity } = useContext(CartDropDownContext)
    
    const handleCartDropDown = () => {
       setshowCartDropdown(!showCartDropdown)
